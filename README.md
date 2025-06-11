@@ -1,6 +1,6 @@
 # Finance Portfolio Manager
 
-A goal-based financial portfolio manager with AI assistent to answer all questions about your financial portfolio and planning 
+A goal-based financial portfolio manager with AI assistant to answer all questions about your financial portfolio and planning 
 
 ## Project Structure
 
