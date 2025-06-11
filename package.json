@@ -1,27 +1,16 @@
 {
-  "name": "finanace-portfolio-manager",
-  "version": "0.1.0",
-  "private": true,
+  "name": "finance-portfolio-manager",
+  "version": "1.0.0",
+  "description": "A goal-based financial portfolio manager with separate UI and backend",
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.3.2"
+    "ui:dev": "cd ui && npm run dev",
+    "ui:build": "cd ui && npm run build",
+    "ui:start": "cd ui && npm run start",
+    "backend:dev": "cd backend && uvicorn app.main:app --reload",
+    "dev": "concurrently \"npm run ui:dev\" \"npm run backend:dev\"",
+    "install:all": "npm install && cd ui && npm install && cd ../backend && pip install -r requirements.txt"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
-    "eslint": "^9",
-    "eslint-config-next": "15.3.2",
-    "@eslint/eslintrc": "^3"
+    "concurrently": "^8.2.2"
   }
-}
+} 
