@@ -53,6 +53,7 @@ npm run ui:start
 ```
 
 ### Backend
+To setup backend follow readMe here: [backend/README.md](https://github.com/AparnaPrasad/AI-Portfolio-assistant/blob/main/backend/README.md)
 ```bash
 # Start backend only
 npm run backend:dev
