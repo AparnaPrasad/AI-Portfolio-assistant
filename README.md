@@ -1,4 +1,5 @@
 # Finance Portfolio Manager
+<img width="1728" alt="Screenshot 2025-06-11 at 11 46 41" src="https://github.com/user-attachments/assets/bcedd8ae-bf0b-40a2-879b-1da6b83814e5" />
 
 A goal-based financial portfolio manager with AI assistant to answer all questions about your financial portfolio and planning 
 
